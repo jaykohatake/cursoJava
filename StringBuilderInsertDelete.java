@@ -13,7 +13,7 @@ public class StringBuilderInsertDelete {
 		double valorDouble = 33.33;
 		
 		StringBuilder buffer = new StringBuilder();
-		buffer.insert(0, refObject);
+		buffer.insert(0, valorLong);
 		System.out.println(buffer);
 		buffer.deleteCharAt(3);
 		System.out.println(buffer);
